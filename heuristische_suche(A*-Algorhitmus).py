@@ -111,13 +111,13 @@ class Field:
             copy = copy[r.randrange(0, len(copy))]
         return copy
 
-
+# Testen
 if __name__ == "__main__":
     start = [3, 0, 6,
              2, 1, 8,
              4, 5, 7]
     t0 = t.time()
-    start = Field.create_start(30)
+    # start = Field.create_start(30)
     print("Start:\n")
     Field.find_opt_moves(start)
     print(f"Benötigte Zeit: {t.time() - t0} Sekunden")
