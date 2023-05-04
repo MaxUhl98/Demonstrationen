@@ -1,7 +1,8 @@
 """Dieses Programm ist eine heuristische Suche, deren Zweck es ist auf einem 3x3 Feld mit 8 Plättchen
    diese mit möglichst wenigen Zügen in die Reihenfolge von perf zu bringen, wobei 0 ein leeres Feld repräsentiert
    (man kann nur links/rechts/oben/unten zur 0 angrenzende Felder mit der 0 tauschen).
-   Ich habe als Heuristik die Summe der Manhattenabstände aller Zahlen außer der Null zu ihren gehörigen Feldern summiert.
+   Ich habe als Heuristik die Summe der Manhattenabstände aller Zahlen außer der Null 
+   zu ihren jeweiligen Startfeldern gewählt.
    Die Kosten für einen Austauschschritt betragen 1.
 """
 import random as r
