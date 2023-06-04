@@ -24,7 +24,7 @@ class Multitracker():
         elif trackerType == self.trackerTypes[5]:
             tracker = cv2.TrackerGOTURN_create()
         elif trackerType == self.trackerTypes[6]:
-            tracker = cv2.TrackerMOSSE_create()
+            tracker = cv2.legacy.TrackerMOSSE_create()
         elif trackerType == self.trackerTypes[7]:
             tracker = cv2.TrackerCSRT_create()
         else:
