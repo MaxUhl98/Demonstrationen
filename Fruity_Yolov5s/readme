@@ -1,0 +1,8 @@
+Hier können sie die Ergebnisse meines ersten Transfer-Learning Projektes in Pytorch sehen. 
+Leider ist mir erst beim Upload der Dateien aufgefallen, dass die Labels der Trainingsdaten verbesserungwürdig sind,
+weshalb ich vermutlich demnächst das selbe noch mal mit einem hoffentlich besserem Datensatz versuchen werde 
+Allerdings schließe ich hierbei auch nicht aus,
+dass ich beim konvertieren des Datensatzes in ein pytorchfreundliches Format einen Anfängerfehler gemacht habe.
+Wenn ich schon dabei bin werde ich auch das nächste mal ein stärkeres Modell als yolov5s nehmen, was hoffentlich auch noch mal 
+die Ergebnisse verbessern wird. Der Datensatz ist zu finden unter https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection.
+Credit für yolov5 geht an https://github.com/ultralytics.
